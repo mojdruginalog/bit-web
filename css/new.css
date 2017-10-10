@@ -1,0 +1,14 @@
+.prvi{
+    background-color: aliceblue;
+    opacity: 0.5;
+}
+.treci{
+    background-color: pink;
+}
+.drugi{
+    background-color: rgba(red, green, blue, alpha);
+
+}
+.opa{
+    opacity: 0.5;
+}
