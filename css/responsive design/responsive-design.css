@@ -1,0 +1,70 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    text-align: justify;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid red;
+    padding: 10px;
+    box-sizing: border-box; /* !!!!!!!! */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+footer {
+    width: 80%;
+    height: 5%;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    
+    section {
+        width: 90%;
+    }
+
+    img {
+        display: block;
+        width: 30%;
+        float: left;
+    }
+
+    section > p {
+        width: 65%;
+        display: block;
+        float: left;
+        padding: 10px;
+    }
+
+    section::after {      /*!!!!!!!!*/
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+}
