@@ -1,0 +1,179 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gold {
+    color: gold;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: grey;
+}
+
+.logo {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.logo1 {
+    border: 2px solid grey;
+    border-right: 0;
+}
+
+.cover {
+    background-image: url("banner3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: table;
+}
+
+.covertext {
+    text-align: center;
+    vertical-align: middle;
+    height: 80%;
+    display: table-cell;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+button {
+    background-color: blue;
+    border-radius: 20px;
+    width: 33%;
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: unset;
+    color: white;
+}
+
+.button {
+    width: 100%;
+    height: 20%;
+}
+
+nav {
+    background-color: powderblue;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav li {
+    padding: 2px 0;
+}
+
+.section-title {
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.section-subtitle {
+    color: powderblue;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+section li {
+   padding: 5px 0;
+}
+
+.about {
+    width: 100%;
+    display: block;
+}
+
+section {
+    margin-top: 100px;
+}
+
+article {
+    background-color: powderblue;
+    color: white;
+    text-align: justify;
+}
+
+article > h4 {
+    color: black;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+    left: 5%;
+    margin-top: 60px;
+    
+}
+
+article > img {
+    border: 5px;
+    border-color: white;
+    border-style: ridge;
+    border-radius: 100%;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 3%;
+    float: left;
+}
+
+article > p {
+    padding: 0 10px 20px 10px;
+    clear: both;
+}
+
+.contact {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: palevioletred;
+}
+
+.blue {
+    background-color: blue;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.contact-image {
+    width: 100%;
+}
+
+.contact-image img {
+    width: 100%;
+}
