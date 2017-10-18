@@ -10,7 +10,7 @@ main {
 }
 
 .gold {
-    color: gold;
+    color: goldenrod;
 }
 
 .white {
@@ -66,11 +66,6 @@ a {
     color: white;
 }
 
-.button {
-    width: 100%;
-    height: 20%;
-}
-
 nav {
     background-color: powderblue;
 }
@@ -85,12 +80,9 @@ nav li {
     padding: 2px 0;
 }
 
-.section-title {
-    border-bottom: 2px solid black;
-}
-
 h1 {
     text-align: center;
+    margin-bottom: 0;
 }
 
 .section-subtitle {
@@ -127,7 +119,7 @@ article > h4 {
     text-transform: uppercase;
     position: relative;
     left: 5%;
-    margin-top: 60px;
+    margin-top: 37px;
     
 }
 
@@ -152,6 +144,7 @@ article > p {
     color: white;
     text-align: center;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .green {
@@ -166,7 +159,7 @@ article > p {
     background-color: blue;
 }
 
-i {
+.contact i {
     margin-right: 10px;
 }
 
@@ -176,4 +169,52 @@ i {
 
 .contact-image img {
     width: 100%;
+}
+
+.contact-image iframe {
+    width: 100%;
+    border: 0;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+form {
+    width: 90%;
+    margin: 10px auto;
+}
+
+#submit {
+    background-color:goldenrod;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10%;
+    border: 0;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: black;
+    color: lightgrey;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.white {
+    color: white;
+}
+
+.underline {
+    width: 40%;
+    display: block;
+    margin: 0 auto 20px auto;
 }
