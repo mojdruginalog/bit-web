@@ -68,17 +68,17 @@ a {
 
 nav {
     background-color: powderblue;
+    ul {
+        list-style-type: none;
+        text-align: center;
+        padding: 5px 0;
+    li {
+        padding: 2px 0;
+    }
+
+}
 }
 
-nav ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 5px 0;
-}
-
-nav li {
-    padding: 2px 0;
-}
 
 h1 {
     text-align: center;
