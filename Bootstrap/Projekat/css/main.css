@@ -17,12 +17,14 @@
   background-color: #04be9f; }
 
 .profile {
-  background-color: #04be9f;
   text-align: center;
   padding: 10px 0;
   color: white; }
   .profile img {
     margin: 0 auto; }
+
+header {
+  background-color: #04be9f; }
 
 #portfolio h3 {
   margin: 0 auto; }
